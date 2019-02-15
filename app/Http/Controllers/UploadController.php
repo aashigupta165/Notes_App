@@ -55,8 +55,16 @@ class UserController extends Controller
         $user = User::create($input);
         $success['token'] =  $user->createToken('MyApp')-> accessToken ;
         $success['name'] =  $user->name;
-        //event(new Registered($user = $this->create($request->all())));
         dispatch(new SendVerificationEmail($user));
-        //return view('Verification');
         return response()->json(['You have successfully registered. An email is sent to you for verification.'=>$success], $this-> successStatus);
     }
+    
+    public function verify($token)
+    {
+        $user = User::where('email_token', $token)->first();
+        $user->email_verified_at = date('Y-m-d h:i:s');
+        if ($user->save()) {
+            return response()->json('Your Email is successfully verified.');
+        }
+    }
+}  
