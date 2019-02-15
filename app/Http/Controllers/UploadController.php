@@ -58,7 +58,7 @@ class UserController extends Controller
         dispatch(new SendVerificationEmail($user));
         return response()->json(['You have successfully registered. An email is sent to you for verification.'=>$success], $this-> successStatus);
     }
-    
+
     public function verify($token)
     {
         $user = User::where('email_token', $token)->first();
@@ -66,5 +66,16 @@ class UserController extends Controller
         if ($user->save()) {
             return response()->json('Your Email is successfully verified.');
         }
+    }
+
+    /**
+     * details api
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function details()
+    {
+        $user = Auth::user();
+        return response()->json(['success' => $user], $this-> successStatus);
     }
 }  
