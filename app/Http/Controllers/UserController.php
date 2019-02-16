@@ -82,4 +82,25 @@ class UserController extends Controller
             Auth::user()->AauthAcessToken()->delete();
         }
     }
+    public function updateuser(Request $request, $id){
+        if ($request->hasFile('image')) {
+            // $request->file('image');
+            $validate = Validator::make($request->all(), [
+                'image' => 'mimes:jpeg,png,bmp,tiff |max:4096',
+            ]);
+            if($validate->fails()){
+                return response()->json(['error'=>$validate->errors()], 401);
+            }
+            else{
+            $filename = $request->image->getClientOriginalName();
+            $filesize = $request->image->getClientSize();
+            $request->image->storeAs('public/upload',$filename);
+            $file = User::find($id);
+            $file->imagename = $filename;
+            $file->imagesize = $filesize;
+            $file->save();
+        }
+        }
+        return $request->all();
+    }
 }

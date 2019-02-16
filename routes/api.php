@@ -19,6 +19,7 @@ Route::get('verifyemail/{token}', 'API\UserController@verify');
 Route::group(['middleware' => 'auth:api'], function() {
     Route::get('details', 'API\UserController@details');
     Route::post('logout','API\UserController@logoutApi');
+    Route::post('updateuser/{id}','API\UserController@updateuser');
 });
 
 
