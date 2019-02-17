@@ -23,6 +23,8 @@ Route::group(['middleware' => 'auth:api'], function() {
     Route::post('userimagedelete/{id}','API\UserController@userimagedelete');
 });
 
+Route::post('store/{id}','UploadController@store');
+
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
