@@ -32,5 +32,11 @@ class UploadController extends Controller
         $file = Post::where('user_id', '=', $user_id)->get();
            return response()->json(['Post' => $file]);
     }
+
+    public function show($id){
+        $post = Post::find($id);
+        return response()->json(['Post' => $post]);
+
+    }
     
 }
