@@ -26,6 +26,7 @@ Route::group(['middleware' => 'auth:api'], function() {
 Route::post('store/{id}','UploadController@store');
 Route::get('showall/{user_id}','UploadController@showall');
 Route::get('show/{id}','UploadController@show');
+Route::post('update/{id}','UploadController@update');
 
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {

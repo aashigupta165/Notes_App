@@ -38,5 +38,19 @@ class UploadController extends Controller
         return response()->json(['Post' => $post]);
 
     }
+
+    public function update(Request $request, $id){
+        if ($request->hasFile('file')) {
+            // $request->file('image');
+            $filename = $request->file->getClientOriginalName();
+            $filesize = $request->file->getClientSize();
+            $request->file->storeAs('public/upload',$filename);
+            $file = Post::find($id);
+            $file->name = $filename;
+            $file->size = $filesize;
+            $file->save();
+        }
+        return $request->all();
+    }
     
 }
