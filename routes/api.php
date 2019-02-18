@@ -27,6 +27,7 @@ Route::post('store/{id}','UploadController@store');
 Route::get('showall/{user_id}','UploadController@showall');
 Route::get('show/{id}','UploadController@show');
 Route::post('update/{id}','UploadController@update');
+Route::delete('delete/{id}','UploadController@delete');
 
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {

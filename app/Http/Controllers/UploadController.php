@@ -52,5 +52,10 @@ class UploadController extends Controller
         }
         return $request->all();
     }
+
+    public function delete($id){
+        $file = Post::find($id);
+        $file->delete();
+    }
     
 }
