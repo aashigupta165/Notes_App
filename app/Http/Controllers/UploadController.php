@@ -1,81 +1,36 @@
 <?php
-namespace App\Http\Controllers\API;
-use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+
+namespace App\Http\Controllers;
+
+use App\Post;
 use App\User;
-use Illuminate\Support\Facades\Auth;
-use Validator;
-use Illuminate\Auth\Events\Registered;
-use App\Jobs\SendVerificationEmail;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+use File;
 
-class UserController extends Controller
+
+class UploadController extends Controller
 {
-    public $successStatus = 200;
-    
-    /**
-     * login api
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function login(){
-        if(Auth::attempt(['email' => request('email'), 'password' => request('password')])){
-            $user = Auth::user();
-            if ($user->email_verified_at != null){
-            $success['token'] =  $user->createToken('MyApp')-> accessToken;
-            return response()->json(['success' => $success], $this-> successStatus);
-        }
-        else{
-            return response()->json(['email not verified' => 'fail']);
-        }
-        }
-        else{
-            return response()->json(['error'=>'Unauthorised'], 401);
-        }
-    }
-    
-    /**
-     * Register api
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function register(Request $request)
+
+    public function store(request $request, $id)
     {
-        $validator = Validator::make($request->all(), [
-            'name' => 'required',
-            'email' => 'required|email',
-            'password' => 'required',
-            'c_password' => 'required|same:password',
-        ]);
-        if ($validator->fails()) {
-            return response()->json(['error'=>$validator->errors()], 401);
+        if ($request->hasFile('file')) {
+            $filename = $request->file->getClientOriginalName();
+            $filesize = $request->file->getClientSize();
+            $request->file->storeAs('public/upload',$filename);
+            $file = new Post;
+            $file->name = $filename;
+            $file->size = $filesize;
+            $file->user_id = $id;
+            $file->save();
         }
-        $input = $request->all();
-        $input['password'] = bcrypt($input['password']);
-        $input['email_token'] = str_random(15);
-        $user = User::create($input);
-        $success['token'] =  $user->createToken('MyApp')-> accessToken ;
-        $success['name'] =  $user->name;
-        dispatch(new SendVerificationEmail($user));
-        return response()->json(['You have successfully registered. An email is sent to you for verification.'=>$success], $this-> successStatus);
+            return $request->all();
     }
 
-    public function verify($token)
+    public function showall($user_id)
     {
-        $user = User::where('email_token', $token)->first();
-        $user->email_verified_at = date('Y-m-d h:i:s');
-        if ($user->save()) {
-            return response()->json('Your Email is successfully verified.');
-        }
+        $file = Post::where('user_id', '=', $user_id)->get();
+           return response()->json(['Post' => $file]);
     }
-
-    /**
-     * details api
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function details()
-    {
-        $user = Auth::user();
-        return response()->json(['success' => $user], $this-> successStatus);
-    }
-}  
+    
+}
