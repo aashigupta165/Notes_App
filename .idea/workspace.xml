@@ -1,9 +1,363 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43e37edf-547a-4864-84cd-290e38ab2e81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="841b1ca5-18e7-4ab3-9058-8b5b28d82e39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PHPMailer-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project-Medicare" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../applications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitnami.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/de/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/de/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/de/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/de/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/de/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/access-phpmyadmin-remotely.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/access-phpmyadmin-remotely.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/access-phpmyadmin-remotely.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/activate-use-xdebug.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/activate-use-xdebug.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/activate-use-xdebug.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/auto-start-xampp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/auto-start-xampp.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/auto-start-xampp.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/backup-restore-mysql.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/backup-restore-mysql.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/backup-restore-mysql.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/change-mysql-temp-dir.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/change-mysql-temp-dir.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/change-mysql-temp-dir.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/configure-use-tomcat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/configure-use-tomcat.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/configure-use-tomcat.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/configure-vhosts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/configure-vhosts.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/configure-vhosts.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/configure-wildcard-subdomains.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/configure-wildcard-subdomains.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/configure-wildcard-subdomains.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/create-framework-project-zf1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/create-framework-project-zf1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/create-framework-project-zf1.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/create-framework-project-zf2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/create-framework-project-zf2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/create-framework-project-zf2.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/deploy-git-app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/deploy-git-app.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/deploy-git-app.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/access-phpmyadmin-remotely/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/activate-use-xdebug/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/activate-use-xdebug/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/activate-use-xdebug/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/auto-start-xampp/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/backup-restore-mysql/image9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-use-tomcat/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-use-tomcat/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-use-tomcat/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-use-tomcat/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-use-tomcat/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-use-tomcat/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-use-tomcat/image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-vhosts/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-vhosts/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-vhosts/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-vhosts/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-wildcard-subdomains/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-wildcard-subdomains/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-wildcard-subdomains/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/configure-wildcard-subdomains/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/create-framework-project-zf1/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/create-framework-project-zf1/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/create-framework-project-zf2/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/create-framework-project-zf2/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/create-framework-project-zf2/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/create-framework-project-zf2/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/create-framework-project-zf2/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/deploy-git-app/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/deploy-git-app/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/deploy-git-app/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/deploy-git-app/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/deploy-git-app/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/deploy-git-app/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/install-wordpress/image38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/reset-mysql-password/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/reset-mysql-password/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/reset-mysql-password/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/send-mail/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/send-mail/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/send-mail/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/transfer-files-ftp/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/transfer-files-ftp/image10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/transfer-files-ftp/image11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/transfer-files-ftp/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/transfer-files-ftp/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/transfer-files-ftp/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/transfer-files-ftp/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/transfer-files-ftp/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/transfer-files-ftp/image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/transfer-files-ftp/image8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/transfer-files-ftp/image9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/troubleshoot-apache/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/troubleshoot-apache/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/troubleshoot-apache/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/troubleshoot-apache/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/troubleshoot-apache/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/troubleshoot-apache/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/troubleshoot-apache/image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/troubleshoot-apache/image8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/use-different-php-version/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/use-php-fcgi/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/use-sqlite/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/use-sqlite/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/images/use-sqlite/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/increase-php-file-upload-limit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/increase-php-file-upload-limit.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/increase-php-file-upload-limit.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/install-wordpress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/install-wordpress.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/install-wordpress.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/reset-mysql-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/reset-mysql-password.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/reset-mysql-password.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/send-mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/send-mail.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/send-mail.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/transfer-files-ftp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/transfer-files-ftp.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/transfer-files-ftp.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/troubleshoot-apache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/troubleshoot-apache.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/troubleshoot-apache.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/use-different-php-version.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/use-different-php-version.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/use-different-php-version.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/use-php-fcgi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/use-php-fcgi.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/use-php-fcgi.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/use-sqlite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/use-sqlite.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/docs/use-sqlite.pdfmarks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/es/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/es/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/es/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/es/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/es/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/fr/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/fr/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/fr/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/fr/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/fr/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/hu/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/hu/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/hu/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/hu/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/hu/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/addons-video-thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/addons/beetailer-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/addons/elegantthemes-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/addons/rockettheme-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/addons/sugaroutfitters-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/addons/templatemonster-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/addons/themeforest-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/addons/woothemes-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/addons/wpmu-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/apple-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/bitnami-xampp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/bitnami-xampp/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/bitnami-xampp/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/bitnami-xampp/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/bitnami-xampp/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/bitnami-xampp/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/bitnami-xampp/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/bitnami-xampp/image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/download-xampp-vm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/heartbleed-affected-osx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/heartbleed-affected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/heartbleed-fixed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/phpinfo-section-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/phpinfo-section-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-cakephp-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-cakephp-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-cakephp-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-cakephp-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-cakephp-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-cakephp-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-cakephp-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-cakephp-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-cakephp-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-cakephp-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-cakephp-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-general.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-manager.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-php-finder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-php-output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-tray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/blog/xampp-vm-volumes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/fastly-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/fastly-logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/cn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/es.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/hu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/it.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/jp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/pt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/pt_br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/ro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/ru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/tr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/ur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/zh_cn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/flags/zh_tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/linux-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/middleman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/pdf-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-linux-start.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-macosx-download-installer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-macosx-launch-credentials.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-macosx-run-installer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-macosx-stack-manager-general.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-macosx-stack-manager-network.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-macosx-stack-manager-services.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-macosx-stack-manager-volumes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-macosx-stack-manager.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-macosx-start.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-macosx-wordpress.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/screenshots/xampp-windows-start.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/social-icons-large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/social-icons-large@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/social-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/social-icons@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/sourceforge-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/sourceforge-logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/stack-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/stack-icons@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/stamps/stamp-173x38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/stamps/stamp-80x15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/stamps/stamp-88x31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/team/beltran-rueda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/team/daniel-lopez.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/team/kai-seidler.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/team/kay-vogelgesang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/team/paul-hinz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/twitter-bird.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/windows-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/xampp-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/xampp-cloud@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/xampp-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/images/xampp-newsletter-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/it/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/it/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/it/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/it/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/it/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/javascripts/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/javascripts/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/jp/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/jp/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/jp/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/jp/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/jp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/phpinfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/pl/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/pl/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/pl/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/pl/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/pl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/pt_br/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/pt_br/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/pt_br/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/pt_br/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/pt_br/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ro/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ro/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ro/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ro/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ro/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ru/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ru/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ru/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ru/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ru/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/stylesheets/all-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/stylesheets/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/stylesheets/asciidoctor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/stylesheets/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/tr/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/tr/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/tr/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/tr/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/tr/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ur/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ur/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ur/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ur/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/ur/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/zh_cn/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/zh_cn/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/zh_cn/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/zh_cn/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/zh_cn/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/zh_tw/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/zh_tw/howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/zh_tw/howto_platform_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/zh_tw/howto_shared_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dashboard/zh_tw/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xampp/.modell" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xampp/.modell-usb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xampp/.version" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,76 +369,139 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="2090751248">
+    <session id="-1473069608">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="3" />
+          <entry key="env" value="5" />
+          <entry key="js" value="1" />
+          <entry key="json" value="3" />
+          <entry key="php" value="141" />
+          <entry key="png" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Blade" value="42" />
+          <entry key="CSS" value="3" />
+          <entry key="Image" value="3" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="99" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
-      <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="1" />
+          <entry key="css" value="50" />
+          <entry key="env" value="163" />
+          <entry key="json" value="2" />
+          <entry key="php" value="10717" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
-      <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="env" value="1" />
-          <entry key="php" value="2" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PHP" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1" />
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="Blade" value="5008" />
+          <entry key="CSS" value="50" />
+          <entry key="JSON" value="2" />
+          <entry key="PHP" value="5709" />
+          <entry key="PLAIN_TEXT" value="163" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="blog" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+        <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="433">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/email.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-end-line="2" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="110" column="5" selection-start-line="105" selection-start-column="4" selection-end-line="110" selection-end-column="5" />
               <folding>
-                <element signature="e#33#72#0#PHP" expanded="true" />
+                <element signature="e#42#70#0#PHP" expanded="true" />
               </folding>
-            <state relative-caret-position="153">
-              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="54" selection-end-column="5" />
+              <folding>
+                <element signature="e#40#53#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#21#55#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Mail/EmailVerification.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="33" column="53" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Jobs/SendVerificationEmail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -92,14 +509,60 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/config/auth.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
+        <option value="$PROJECT_DIR$/app/Post.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/main.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/_messages.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/_head.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/_javascript.balde.php" />
+        <option value="$PROJECT_DIR$/resources/views/main.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/_head.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/_nav.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/styles.css" />
+        <option value="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_02_05_120803_add_image_col_to_posts.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/upload.blade.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_02_09_104342_create_verify_users_table.php" />
+        <option value="$PROJECT_DIR$/app/VerifyUser.php" />
+        <option value="$PROJECT_DIR$/app/Mail/VerifyMail.php" />
+        <option value="$PROJECT_DIR$/app/Mail/notes.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/MailController.php" />
+        <option value="$PROJECT_DIR$/resources/views/mail.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" />
+        <option value="$PROJECT_DIR$/resources/views/exmpl.blade.php" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$PROJECT_DIR$/app/Mail/Gmail.php" />
+        <option value="$PROJECT_DIR$/app/Jobs/SendVerificationEmail.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
+        <option value="$PROJECT_DIR$/resources/views/verification.blade.php" />
+        <option value="$PROJECT_DIR$/app/Mail/EmailVerification.php" />
+        <option value="$PROJECT_DIR$/resources/views/email.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/emailconfirm.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UploadController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_02_04_060633_create_posts_table.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
       </list>
     </option>
   </component>
@@ -111,102 +574,109 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/vendor/php-http/guzzle6-adapter" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/laravel/slack-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/laravel/nexmo-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
-      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
       <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
       <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/vendor/nexmo/client" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
-      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
-      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/nexmo/client" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
-      <path value="$PROJECT_DIR$/vendor/laravel/slack-notification-channel" />
-      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
-      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
-      <path value="$PROJECT_DIR$/vendor/laravel/nexmo-notification-channel" />
-      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
-      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
-      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
-      <path value="$PROJECT_DIR$/vendor/opis/closure" />
-      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
-      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
-      <path value="$PROJECT_DIR$/vendor/league/event" />
-      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
-      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
-      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
-      <path value="$PROJECT_DIR$/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
-      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
-      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
-      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
-      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
-      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
-      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
-      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
-      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
-      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
-      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
-      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
-      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
-      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -215,32 +685,115 @@
     <option name="width" value="1400" />
     <option name="height" value="710" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="temp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://C:/xampp/htdocs/temp/app/Providers/AppServiceProvider.php" />
-    <property name="SearchEverywhereHistoryKey" value="api.php&#9;FILE&#9;file://C:/xampp/htdocs/temp/vendor/symfony/process/Pipes/AbstractPipes.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/temp/app/Providers/AppServiceProvider.php" />
+    <property name="SearchEverywhereHistoryKey" value="aut&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/Providers/AuthServiceProvider.php&#10;au&#9;FILE&#9;file://C:/xampp/htdocs/blog/resources/lang/en/auth.php&#10;se&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/Jobs/SendVerificationEmail.php&#10;api.php&#9;FILE&#9;file://C:/xampp/htdocs/blog/routes/api.php&#10;api&#9;FILE&#9;file://C:/xampp/htdocs/blog/routes/api.php&#10;uplo&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/Http/Controllers/UploadController.php&#10;po&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/Http/Controllers/PostController.php&#10;upl&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/Http/Controllers/UploadController.php&#10;email&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/Mail/EmailVerification.php&#10;page&#9;null&#9;null&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/User.php&#10;emai&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/Mail/EmailVerification.php&#10;re&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/Http/Controllers/Auth/RegisterController.php&#10;em&#9;null&#9;null&#10;mail&#9;FILE&#9;file://C:/xampp/htdocs/blog/config/mail.php&#10;userc&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/Http/Controllers/UserController.php&#10;ap&#9;FILE&#9;file://C:/xampp/htdocs/blog/routes/api.php&#10;register&#9;null&#9;null&#10;auth&#9;FILE&#9;file://C:/xampp/htdocs/blog/config/auth.php&#10;send&#9;null&#9;null&#10;streamb&#9;FILE&#9;file://C:/xampp/htdocs/blog/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php&#10;mail.p&#9;FILE&#9;file://C:/xampp/htdocs/blog/config/mail.php&#10;mailc&#9;null&#9;null&#10;services&#9;FILE&#9;file://C:/xampp/htdocs/blog/config/services.php&#10;m&#9;FILE&#9;file://C:/xampp/htdocs/blog/config/mail.php&#10;mail.php&#9;FILE&#9;file://C:/xampp/htdocs/blog/config/mail.php&#10;conf&#9;FILE&#9;file://C:/xampp/htdocs/blog/bootstrap/cache/config.php&#10;verifyuser.p&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/VerifyUser.php&#10;config.p&#9;FILE&#9;file://C:/xampp/htdocs/blog/bootstrap/cache/config.php&#10;ver&#9;null&#9;null&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/blog/config/app.php&#10;sh&#9;FILE&#9;file://C:/xampp/htdocs/blog/resources/views/posts/show.blade.php&#10;post&#9;null&#9;null&#10;userco&#9;null&#9;null&#10;api.p&#9;FILE&#9;file://C:/xampp/htdocs/blog/routes/api.php&#10;auth.p&#9;FILE&#9;file://C:/xampp/htdocs/blog/config/auth.php&#10;user.ph&#9;FILE&#9;file://C:/xampp/htdocs/blog/app/User.php&#10;app.ph&#9;FILE&#9;file://C:/xampp/htdocs/blog/config/app.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\blog\resources\views\partials" />
+      <recent name="C:\xampp\htdocs\blog\resources\views" />
+      <recent name="C:\xampp\htdocs\blog\resources\views\pages" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,48 +812,79 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43e37edf-547a-4864-84cd-290e38ab2e81" name="Default Changelist" comment="" />
-      <created>1550153055834</created>
+      <changelist id="841b1ca5-18e7-4ab3-9058-8b5b28d82e39" name="Default Changelist" comment="" />
+      <created>1549178721994</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550153055834</updated>
-      <workItem from="1550153058114" duration="1711000" />
-      <workItem from="1550155808496" duration="63000" />
-      <workItem from="1550158556469" duration="955000" />
-      <workItem from="1550203064587" duration="285000" />
-      <workItem from="1550203064587" duration="900000" />
+      <updated>1549178721994</updated>
+      <workItem from="1549178723700" duration="158228000" />
+      <workItem from="1549968486061" duration="20298000" />
+      <workItem from="1550157153532" duration="1809000" />
+      <workItem from="1550203110752" duration="6276000" />
+      <workItem from="1550383792791" duration="3522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1321000" />
-    <option name="totallyTimeSpent" value="326000" />
+    <option name="totallyTimeSpent" value="190133000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49778762" visible="true" weight="0.10671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5022124" side_tool="true" weight="0.14161074" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.2212766" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.14161074" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="1" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.35886526" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -309,35 +893,271 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/_head.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-=======
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/process/Pipes/AbstractPipes.php">
->>>>>>> API
+    <entry file="file://$PROJECT_DIR$/public/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="36" column="93" selection-start-line="36" selection-start-column="93" selection-end-line="36" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_05_120803_add_image_col_to_posts.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/_nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/upload.blade.php" />
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/Yb0m139yiKrFpFUp8RKG3SELT8SW1VF4XcFJQuCq.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/upload/Screenshot (4).png" />
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="166" column="8" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/show.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="370">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_09_104342_create_verify_users_table.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1058" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/notes.php" />
+    <entry file="file://$PROJECT_DIR$/bootstrap/cache/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7985">
+          <caret line="551" selection-start-line="551" selection-end-line="551" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="19" column="65" lean-forward="true" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/VerifyUser.php" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/upload/Screenshot (7).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="289" column="49" selection-start-line="289" selection-start-column="49" selection-end-line="289" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/mail.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MailController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Mail/VerifyMail.php" />
+    <entry file="file://$PROJECT_DIR$/app/Mail/GmailExample.php" />
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/exmpl.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Mail/Gmail.php" />
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/verification.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emailconfirm.blade.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_04_060633_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="e#33#72#0#PHP" expanded="true" />
+            <element signature="e#21#55#0#PHP" expanded="true" />
           </folding>
-        <state relative-caret-position="153">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/EmailVerification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Jobs/SendVerificationEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="110" column="5" selection-start-line="105" selection-start-column="4" selection-end-line="110" selection-end-column="5" />
+          <folding>
+            <element signature="e#42#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" selection-end-column="55" />
         </state>
       </provider>
     </entry>

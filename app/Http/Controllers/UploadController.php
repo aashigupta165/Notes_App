@@ -26,19 +26,16 @@ class UploadController extends Controller
         }
             return $request->all();
     }
-
     public function showall($user_id)
     {
         $file = Post::where('user_id', '=', $user_id)->get();
            return response()->json(['Post' => $file]);
     }
-
     public function show($id){
         $post = Post::find($id);
         return response()->json(['Post' => $post]);
 
     }
-
     public function update(Request $request, $id){
         if ($request->hasFile('file')) {
             // $request->file('image');
@@ -52,10 +49,8 @@ class UploadController extends Controller
         }
         return $request->all();
     }
-
     public function delete($id){
         $file = Post::find($id);
         $file->delete();
     }
-    
 }

@@ -81,7 +81,6 @@ class UserController extends Controller
         if (Auth::check()) {
             Auth::user()->AauthAcessToken()->delete();
         }
-    
     }
     public function updateuser(Request $request, $id){
         if ($request->hasFile('image')) {
@@ -104,12 +103,10 @@ class UserController extends Controller
         }
         return $request->all();
     }
-
     public function userimagedelete($id){
         $file = User::find($id);
         $file->imagename = null;
         $file->imagesize = null;
         $file->save();
     }
-
 }
