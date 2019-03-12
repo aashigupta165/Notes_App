@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use Validator;
 use Illuminate\Auth\Events\Registered;
 use App\Jobs\SendVerificationEmail;
+use App\Jobs\SendEmail;
 
 class UserController extends Controller
 {
@@ -53,9 +54,7 @@ class UserController extends Controller
         $user = User::create($input);
         $success['token'] =  $user->createToken('MyApp')-> accessToken ;
         $success['name'] =  $user->name;
-        //event(new Registered($user = $this->create($request->all())));
         dispatch(new SendVerificationEmail($user));
-        //return view('Verification');
         return response()->json(['You have successfully registered. An email is sent to you for verification.'=>$success], $this-> successStatus);
     }
     public function verify($token)
@@ -109,4 +108,32 @@ class UserController extends Controller
         $file->imagesize = null;
         $file->save();
     }
+<<<<<<< HEAD
 }
+=======
+
+    public function sendotp($email)
+    {
+        $user = User::where('email', $email)->first();
+        $user->otp = mt_rand(100000, 999999);
+        $user->save();
+        dispatch(new SendEmail($user));
+        return response()->json('OTP is send to you');
+    }
+    public function verifyotp($otp)
+    {
+        $user = User::where('otp', $otp)->first();
+        if ($user != NULL) {
+            return response()->json('Your Email is successfully verified.');
+        }
+    }
+     
+    public function passwordupdate(Request $request){
+        $user = User::where('email', $request->email)->first();
+        $user->password = bcrypt($request->password);
+        if ($user->save()) {
+            return response()->json('Password Updated.');
+        }
+    }
+}
+>>>>>>> API

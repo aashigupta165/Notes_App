@@ -19,7 +19,15 @@ Route::group(['middleware' => 'auth:api'], function() {
     Route::post('updateuser/{id}','API\UserController@updateuser');
 });
 
+<<<<<<< HEAD
 
+=======
+Route::get('sendotp/{email}', 'API\UserController@sendotp');
+Route::get('verifyotp/{otp}', 'API\UserController@verifyotp');
+Route::post('passwordupdate', 'API\UserController@passwordupdate');
+
+Route::post('store/{id}','UploadController@store');
+>>>>>>> API
 Route::get('showall/{user_id}','UploadController@showall');
 Route::get('show/{id}','UploadController@show');
 Route::post('store/{id}','UploadController@store');

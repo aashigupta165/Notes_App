@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('imagename')->nullable();
             $table->string('imagesize')->nullable();
             $table->string('email_token')->nullable();
+            $table->int('otp')->nullable();
             $table->timestamps();
         });
     }
