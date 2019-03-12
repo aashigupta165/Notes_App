@@ -110,6 +110,22 @@ class UserController extends Controller
         $file->imagesize = null;
         $file->save();
     }
+
+    public function sendotp($email)
+    {
+        $user = User::where('email', $email)->first();
+        $user->otp = mt_rand(100000, 999999);
+        $user->save();
+        dispatch(new SendEmail($user));
+        return response()->json('OTP is send to you');
+    }
+    public function verifyotp($otp)
+    {
+        $user = User::where('otp', $otp)->first();
+        if ($user != NULL) {
+            return response()->json('Your Email is successfully verified.');
+        }
+    }
      
     public function passwordupdate(Request $request){
         $user = User::where('email', $request->email)->first();

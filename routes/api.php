@@ -23,6 +23,8 @@ Route::group(['middleware' => 'auth:api'], function() {
     Route::post('userimagedelete/{id}','API\UserController@userimagedelete');
 });
 
+Route::get('sendotp/{email}', 'API\UserController@sendotp');
+Route::get('verifyotp/{otp}', 'API\UserController@verifyotp');
 Route::post('passwordupdate', 'API\UserController@passwordupdate');
 
 Route::post('store/{id}','UploadController@store');
